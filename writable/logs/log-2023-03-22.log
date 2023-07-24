@@ -1,0 +1,97 @@
+INFO - 2023-03-22 12:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 12:55:22 --> Undefined variable: uri1
+in VENDORPATH\myth\auth\src\Views\_navbar.php on line 57.
+ 1 VENDORPATH\myth\auth\src\Views\_navbar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: uri1', 'VENDORPATH\\myth\\auth\\src\\Views\\_navbar.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('VENDORPATH\\myth\\auth\\src\\Views\\_navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Myth\\Auth\\Views\\_navbar', [], true)
+ 5 VENDORPATH\myth\auth\src\Views\layout.php(27): view('Myth\\Auth\\Views\\_navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('VENDORPATH\\myth\\auth\\src\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Myth\\Auth\\Views\\layout', [], true)
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Myth\\Auth\\Views\\register', [], true)
+10 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('Myth\\Auth\\Views\\register', [...])
+11 VENDORPATH\myth\auth\src\Controllers\AuthController.php(133): Myth\Auth\Controllers\AuthController->_render('Myth\\Auth\\Views\\register', [...])
+12 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->register()
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-22 12:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 12:56:08 --> Undefined variable: uri1
+in VENDORPATH\myth\auth\src\Views\_navbar.php on line 57.
+ 1 VENDORPATH\myth\auth\src\Views\_navbar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: uri1', 'VENDORPATH\\myth\\auth\\src\\Views\\_navbar.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('VENDORPATH\\myth\\auth\\src\\Views\\_navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Myth\\Auth\\Views\\_navbar', [], true)
+ 5 VENDORPATH\myth\auth\src\Views\layout.php(27): view('Myth\\Auth\\Views\\_navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('VENDORPATH\\myth\\auth\\src\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Myth\\Auth\\Views\\layout', [], true)
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Myth\\Auth\\Views\\register', [], true)
+10 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('Myth\\Auth\\Views\\register', [...])
+11 VENDORPATH\myth\auth\src\Controllers\AuthController.php(133): Myth\Auth\Controllers\AuthController->_render('Myth\\Auth\\Views\\register', [...])
+12 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->register()
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-22 12:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 12:57:47 --> Undefined variable: uri1
+in VENDORPATH\myth\auth\src\Views\_navbar.php on line 57.
+ 1 VENDORPATH\myth\auth\src\Views\_navbar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: uri1', 'VENDORPATH\\myth\\auth\\src\\Views\\_navbar.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('VENDORPATH\\myth\\auth\\src\\Views\\_navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Myth\\Auth\\Views\\_navbar', [], true)
+ 5 VENDORPATH\myth\auth\src\Views\layout.php(27): view('Myth\\Auth\\Views\\_navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('VENDORPATH\\myth\\auth\\src\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Myth\\Auth\\Views\\layout', [], true)
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Myth\\Auth\\Views\\register', [], true)
+10 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('Myth\\Auth\\Views\\register', [...])
+11 VENDORPATH\myth\auth\src\Controllers\AuthController.php(133): Myth\Auth\Controllers\AuthController->_render('Myth\\Auth\\Views\\register', [...])
+12 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->register()
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-22 13:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 13:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 13:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 13:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 13:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 13:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-22 13:48:02 --> Undefined variable: uri1
+in VENDORPATH\myth\auth\src\Views\_navbar.php on line 58.
+ 1 VENDORPATH\myth\auth\src\Views\_navbar.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: uri1', 'VENDORPATH\\myth\\auth\\src\\Views\\_navbar.php', 58, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('VENDORPATH\\myth\\auth\\src\\Views\\_navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Myth\\Auth\\Views\\_navbar', [], true)
+ 5 VENDORPATH\myth\auth\src\Views\layout.php(27): view('Myth\\Auth\\Views\\_navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('VENDORPATH\\myth\\auth\\src\\Views\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Myth\\Auth\\Views\\layout', [], true)
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Myth\\Auth\\Views\\login', [], true)
+10 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('Myth\\Auth\\Views\\login', [...])
+11 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('Myth\\Auth\\Views\\login', [...])
+12 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-22 14:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-22 14:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
